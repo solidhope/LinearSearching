@@ -1,18 +1,7 @@
+#pragma once
 #include <iostream>
+#include "LinearSearch.h"
 using namespace std;
-
-int linearSearch(int a[], int search, int size) {
-    
-    for (int i = 0; i < size; ++i) {
-        
-        if (search == a[i])
-            
-            return i;
-        
-    }
-    
-    return -1;
-}
 
 int main()
 {
